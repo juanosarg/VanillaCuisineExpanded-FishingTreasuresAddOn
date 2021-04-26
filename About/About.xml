@@ -27,17 +27,10 @@
 	   <li>VanillaExpanded.VCEF</li>
      
     </loadAfter>
-	<description>
-
-
-&lt;size=24&gt;Compatibility&lt;/size&gt;
-
-
+	<description>The Vanilla Fishing Expanded - Fishing Treasures AddOn adds modded items to the "Special" fishing chance in Vanilla Fishing Expanded.
 
 &lt;size=24&gt;Changelog&lt;/size&gt;
 
-
-v0.1: Pre-Alpha (09/04/21)
-
+v1.0: Release (26/04/21)
 </description>
 </ModMetaData>
