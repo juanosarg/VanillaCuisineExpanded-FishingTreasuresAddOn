@@ -16,8 +16,8 @@
 					<value>
 
 						<VCE_Fishing.FishDef>
-							<defName>VCEF_SpecialCannedFish</defName>
-							<thingDef>VCE_CanFish</thingDef>    
+							<defName>VCEF_SpecialVCE_CannedMeat</defName>
+							<thingDef>VCE_CannedMeat</thingDef>    
 							<fishSizeCategory>Special</fishSizeCategory>
 							<canBeFreshwater>true</canBeFreshwater>
 							<canBeSaltwater>true</canBeSaltwater>
