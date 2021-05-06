@@ -26,7 +26,7 @@
 								<li>VCEF_BiomeAlienCold</li>						
 							</allowedBiomes>  	
 							<commonality>0.2</commonality>		
-							<baseFishingYield>1</baseFishingYield>		
+							<baseFishingYield>30</baseFishingYield>		
 						</VCE_Fishing.FishDef>	
 						
 

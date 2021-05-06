@@ -66,6 +66,7 @@
 							</allowedBiomes>  	
 							<commonality>0.5</commonality>		
 							<baseFishingYield>1</baseFishingYield>		
+							<dontScaleFishingYieldWithSkill>true</dontScaleFishingYieldWithSkill>
 						</VCE_Fishing.FishDef>	
 						<VCE_Fishing.FishDef>
 							<defName>VCEF_SpecialRB_Mead</defName>

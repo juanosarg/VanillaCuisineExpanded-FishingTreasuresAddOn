@@ -1,23 +1,17 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
-
-
 	<Operation Class="PatchOperationFindMod">
 		<mods>
 			<li>A Dog Said... Animal Prosthetics</li>
 		</mods>
-
 		<match Class="PatchOperationSequence">
 			<operations>
-
-
-				<li Class="PatchOperationAdd"> 
+				<li Class="PatchOperationAdd">
 					<xpath>/Defs</xpath>
 					<value>
-
 						<VCE_Fishing.FishDef>
 							<defName>VCEF_SpecialProstheticTail</defName>
-							<thingDef>ProstheticTailAnimal</thingDef>    
+							<thingDef>ProstheticTailAnimal</thingDef>
 							<fishSizeCategory>Special</fishSizeCategory>
 							<canBeFreshwater>true</canBeFreshwater>
 							<canBeSaltwater>true</canBeSaltwater>
@@ -25,16 +19,17 @@
 								<li>Warm</li>
 								<li>Cold</li>
 								<li>Hot</li>
-								<li>VCEF_BiomeAlienJungly</li>	
-								<li>VCEF_BiomeAlienHot</li>	
-								<li>VCEF_BiomeAlienCold</li>						
-							</allowedBiomes>  	
-							<commonality>0.1</commonality>		
-							<baseFishingYield>1</baseFishingYield>		
-						</VCE_Fishing.FishDef>	
+								<li>VCEF_BiomeAlienJungly</li>
+								<li>VCEF_BiomeAlienHot</li>
+								<li>VCEF_BiomeAlienCold</li>
+							</allowedBiomes>
+							<commonality>0.1</commonality>
+							<baseFishingYield>1</baseFishingYield>
+							<dontScaleFishingYieldWithSkill>true</dontScaleFishingYieldWithSkill>
+						</VCE_Fishing.FishDef>
 						<VCE_Fishing.FishDef>
 							<defName>VCEF_SpecialSimpleProstheticLegAnimal</defName>
-							<thingDef>SimpleProstheticLegAnimal</thingDef>    
+							<thingDef>SimpleProstheticLegAnimal</thingDef>
 							<fishSizeCategory>Special</fishSizeCategory>
 							<canBeFreshwater>true</canBeFreshwater>
 							<canBeSaltwater>true</canBeSaltwater>
@@ -42,16 +37,17 @@
 								<li>Warm</li>
 								<li>Cold</li>
 								<li>Hot</li>
-								<li>VCEF_BiomeAlienJungly</li>	
-								<li>VCEF_BiomeAlienHot</li>	
-								<li>VCEF_BiomeAlienCold</li>						
-							</allowedBiomes>  	
-							<commonality>0.1</commonality>		
-							<baseFishingYield>1</baseFishingYield>		
+								<li>VCEF_BiomeAlienJungly</li>
+								<li>VCEF_BiomeAlienHot</li>
+								<li>VCEF_BiomeAlienCold</li>
+							</allowedBiomes>
+							<commonality>0.1</commonality>
+							<baseFishingYield>1</baseFishingYield>
+							<dontScaleFishingYieldWithSkill>true</dontScaleFishingYieldWithSkill>
 						</VCE_Fishing.FishDef>
 						<VCE_Fishing.FishDef>
 							<defName>VCEF_SpecialSimpleProstheticArmAnimal</defName>
-							<thingDef>SimpleProstheticArmAnimal</thingDef>    
+							<thingDef>SimpleProstheticArmAnimal</thingDef>
 							<fishSizeCategory>Special</fishSizeCategory>
 							<canBeFreshwater>true</canBeFreshwater>
 							<canBeSaltwater>true</canBeSaltwater>
@@ -59,16 +55,17 @@
 								<li>Warm</li>
 								<li>Cold</li>
 								<li>Hot</li>
-								<li>VCEF_BiomeAlienJungly</li>	
-								<li>VCEF_BiomeAlienHot</li>	
-								<li>VCEF_BiomeAlienCold</li>						
-							</allowedBiomes>  	
-							<commonality>0.1</commonality>		
-							<baseFishingYield>1</baseFishingYield>		
+								<li>VCEF_BiomeAlienJungly</li>
+								<li>VCEF_BiomeAlienHot</li>
+								<li>VCEF_BiomeAlienCold</li>
+							</allowedBiomes>
+							<commonality>0.1</commonality>
+							<baseFishingYield>1</baseFishingYield>
+							<dontScaleFishingYieldWithSkill>true</dontScaleFishingYieldWithSkill>
 						</VCE_Fishing.FishDef>
 						<VCE_Fishing.FishDef>
 							<defName>VCEF_SpecialNoseAnimalSimple</defName>
-							<thingDef>NoseAnimalSimple</thingDef>    
+							<thingDef>NoseAnimalSimple</thingDef>
 							<fishSizeCategory>Special</fishSizeCategory>
 							<canBeFreshwater>true</canBeFreshwater>
 							<canBeSaltwater>true</canBeSaltwater>
@@ -76,16 +73,17 @@
 								<li>Warm</li>
 								<li>Cold</li>
 								<li>Hot</li>
-								<li>VCEF_BiomeAlienJungly</li>	
-								<li>VCEF_BiomeAlienHot</li>	
-								<li>VCEF_BiomeAlienCold</li>						
-							</allowedBiomes>  	
-							<commonality>0.1</commonality>		
-							<baseFishingYield>1</baseFishingYield>		
+								<li>VCEF_BiomeAlienJungly</li>
+								<li>VCEF_BiomeAlienHot</li>
+								<li>VCEF_BiomeAlienCold</li>
+							</allowedBiomes>
+							<commonality>0.1</commonality>
+							<baseFishingYield>1</baseFishingYield>
+							<dontScaleFishingYieldWithSkill>true</dontScaleFishingYieldWithSkill>
 						</VCE_Fishing.FishDef>
 						<VCE_Fishing.FishDef>
 							<defName>VCEF_SpecialJawAnimalSimple</defName>
-							<thingDef>JawAnimalSimple</thingDef>    
+							<thingDef>JawAnimalSimple</thingDef>
 							<fishSizeCategory>Special</fishSizeCategory>
 							<canBeFreshwater>true</canBeFreshwater>
 							<canBeSaltwater>true</canBeSaltwater>
@@ -93,16 +91,17 @@
 								<li>Warm</li>
 								<li>Cold</li>
 								<li>Hot</li>
-								<li>VCEF_BiomeAlienJungly</li>	
-								<li>VCEF_BiomeAlienHot</li>	
-								<li>VCEF_BiomeAlienCold</li>						
-							</allowedBiomes>  	
-							<commonality>0.1</commonality>		
-							<baseFishingYield>1</baseFishingYield>		
+								<li>VCEF_BiomeAlienJungly</li>
+								<li>VCEF_BiomeAlienHot</li>
+								<li>VCEF_BiomeAlienCold</li>
+							</allowedBiomes>
+							<commonality>0.1</commonality>
+							<baseFishingYield>1</baseFishingYield>
+							<dontScaleFishingYieldWithSkill>true</dontScaleFishingYieldWithSkill>
 						</VCE_Fishing.FishDef>
 						<VCE_Fishing.FishDef>
 							<defName>VCEF_SpecialEarAnimalSimple</defName>
-							<thingDef>EarAnimalSimple</thingDef>    
+							<thingDef>EarAnimalSimple</thingDef>
 							<fishSizeCategory>Special</fishSizeCategory>
 							<canBeFreshwater>true</canBeFreshwater>
 							<canBeSaltwater>true</canBeSaltwater>
@@ -110,16 +109,17 @@
 								<li>Warm</li>
 								<li>Cold</li>
 								<li>Hot</li>
-								<li>VCEF_BiomeAlienJungly</li>	
-								<li>VCEF_BiomeAlienHot</li>	
-								<li>VCEF_BiomeAlienCold</li>						
-							</allowedBiomes>  	
-							<commonality>0.1</commonality>		
-							<baseFishingYield>1</baseFishingYield>		
+								<li>VCEF_BiomeAlienJungly</li>
+								<li>VCEF_BiomeAlienHot</li>
+								<li>VCEF_BiomeAlienCold</li>
+							</allowedBiomes>
+							<commonality>0.1</commonality>
+							<baseFishingYield>1</baseFishingYield>
+							<dontScaleFishingYieldWithSkill>true</dontScaleFishingYieldWithSkill>
 						</VCE_Fishing.FishDef>
 						<VCE_Fishing.FishDef>
 							<defName>VCEF_SpecialSpineAnimalSimple</defName>
-							<thingDef>SpineAnimalSimple</thingDef>    
+							<thingDef>SpineAnimalSimple</thingDef>
 							<fishSizeCategory>Special</fishSizeCategory>
 							<canBeFreshwater>true</canBeFreshwater>
 							<canBeSaltwater>true</canBeSaltwater>
@@ -127,25 +127,18 @@
 								<li>Warm</li>
 								<li>Cold</li>
 								<li>Hot</li>
-								<li>VCEF_BiomeAlienJungly</li>	
-								<li>VCEF_BiomeAlienHot</li>	
-								<li>VCEF_BiomeAlienCold</li>						
-							</allowedBiomes>  	
-							<commonality>0.1</commonality>		
-							<baseFishingYield>1</baseFishingYield>		
+								<li>VCEF_BiomeAlienJungly</li>
+								<li>VCEF_BiomeAlienHot</li>
+								<li>VCEF_BiomeAlienCold</li>
+							</allowedBiomes>
+							<commonality>0.1</commonality>
+							<baseFishingYield>1</baseFishingYield>
+							<dontScaleFishingYieldWithSkill>true</dontScaleFishingYieldWithSkill>
 						</VCE_Fishing.FishDef>
-						
-
-
-
 					</value>
 				</li>
-
-
 			</operations>
 		</match>
 	</Operation>
-
-
 </Patch>
 

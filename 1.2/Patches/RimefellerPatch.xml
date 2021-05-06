@@ -4,7 +4,7 @@
 
 	<Operation Class="PatchOperationFindMod">
 		<mods>
-			<li>Vanilla Brewing Expanded</li>
+			<li>Rimefeller</li>
 		</mods>
 
 		<match Class="PatchOperationSequence">
@@ -16,8 +16,42 @@
 					<value>
 
 						<VCE_Fishing.FishDef>
-							<defName>VCEF_SpecialVBE_AmbrandyNormal</defName>
-							<thingDef>VBE_AmbrandyNormal</thingDef>    
+							<defName>VCEF_SpecialShell_Napalm</defName>
+							<thingDef>Shell_Napalm</thingDef>    
+							<fishSizeCategory>Special</fishSizeCategory>
+							<canBeFreshwater>true</canBeFreshwater>
+							<canBeSaltwater>true</canBeSaltwater>
+							<allowedBiomes>
+								<li>Warm</li>
+								<li>Cold</li>
+								<li>Hot</li>
+								<li>VCEF_BiomeAlienJungly</li>	
+								<li>VCEF_BiomeAlienHot</li>	
+								<li>VCEF_BiomeAlienCold</li>					
+							</allowedBiomes>  	
+							<commonality>0.05</commonality>		
+							<baseFishingYield>3</baseFishingYield>		
+						</VCE_Fishing.FishDef>	
+						<VCE_Fishing.FishDef>
+							<defName>VCEF_SpecialNapalm</defName>
+							<thingDef>Napalm</thingDef>    
+							<fishSizeCategory>Special</fishSizeCategory>
+							<canBeFreshwater>true</canBeFreshwater>
+							<canBeSaltwater>true</canBeSaltwater>
+							<allowedBiomes>
+								<li>Warm</li>
+								<li>Cold</li>
+								<li>Hot</li>
+								<li>VCEF_BiomeAlienJungly</li>	
+								<li>VCEF_BiomeAlienHot</li>	
+								<li>VCEF_BiomeAlienCold</li>						
+							</allowedBiomes>  	
+							<commonality>0.1</commonality>		
+							<baseFishingYield>3</baseFishingYield>		
+						</VCE_Fishing.FishDef>	
+						<VCE_Fishing.FishDef>
+							<defName>VCEF_SpecialOilBarrel</defName>
+							<thingDef>OilBarrel</thingDef>    
 							<fishSizeCategory>Special</fishSizeCategory>
 							<canBeFreshwater>true</canBeFreshwater>
 							<canBeSaltwater>true</canBeSaltwater>
@@ -31,11 +65,11 @@
 							</allowedBiomes>  	
 							<commonality>0.1</commonality>		
 							<baseFishingYield>1</baseFishingYield>	
-<dontScaleFishingYieldWithSkill>true</dontScaleFishingYieldWithSkill>							
+							<dontScaleFishingYieldWithSkill>true</dontScaleFishingYieldWithSkill>							
 						</VCE_Fishing.FishDef>	
 						<VCE_Fishing.FishDef>
-							<defName>VCEF_SpecialVBE_Gin</defName>
-							<thingDef>VBE_Gin</thingDef>    
+							<defName>VCEF_SpecialSynthamide</defName>
+							<thingDef>Synthamide</thingDef>    
 							<fishSizeCategory>Special</fishSizeCategory>
 							<canBeFreshwater>true</canBeFreshwater>
 							<canBeSaltwater>true</canBeSaltwater>
@@ -48,11 +82,11 @@
 								<li>VCEF_BiomeAlienCold</li>						
 							</allowedBiomes>  	
 							<commonality>0.1</commonality>		
-							<baseFishingYield>3</baseFishingYield>		
+							<baseFishingYield>10</baseFishingYield>		
 						</VCE_Fishing.FishDef>	
 						<VCE_Fishing.FishDef>
-							<defName>VCEF_SpecialVBE_Tequila</defName>
-							<thingDef>VBE_Tequila</thingDef>    
+							<defName>VCEF_SpecialSynthylene</defName>
+							<thingDef>Synthylene</thingDef>    
 							<fishSizeCategory>Special</fishSizeCategory>
 							<canBeFreshwater>true</canBeFreshwater>
 							<canBeSaltwater>true</canBeSaltwater>
@@ -64,12 +98,12 @@
 								<li>VCEF_BiomeAlienHot</li>	
 								<li>VCEF_BiomeAlienCold</li>						
 							</allowedBiomes>  	
-							<commonality>0.2</commonality>		
-							<baseFishingYield>3</baseFishingYield>		
+							<commonality>0.1</commonality>		
+							<baseFishingYield>10</baseFishingYield>		
 						</VCE_Fishing.FishDef>	
 						<VCE_Fishing.FishDef>
-							<defName>VCEF_SpecialVBE_Vodka</defName>
-							<thingDef>VBE_Vodka</thingDef>    
+							<defName>VCEF_SpecialFiberComposite</defName>
+							<thingDef>FiberComposite</thingDef>    
 							<fishSizeCategory>Special</fishSizeCategory>
 							<canBeFreshwater>true</canBeFreshwater>
 							<canBeSaltwater>true</canBeSaltwater>
@@ -81,63 +115,9 @@
 								<li>VCEF_BiomeAlienHot</li>	
 								<li>VCEF_BiomeAlienCold</li>						
 							</allowedBiomes>  	
-							<commonality>0.2</commonality>		
-							<baseFishingYield>3</baseFishingYield>		
-						</VCE_Fishing.FishDef>	
-						<VCE_Fishing.FishDef>
-							<defName>VCEF_SpecialVBE_Whiskey</defName>
-							<thingDef>VBE_Whiskey</thingDef>    
-							<fishSizeCategory>Special</fishSizeCategory>
-							<canBeFreshwater>true</canBeFreshwater>
-							<canBeSaltwater>true</canBeSaltwater>
-							<allowedBiomes>
-								<li>Warm</li>
-								<li>Cold</li>
-								<li>Hot</li>
-								<li>VCEF_BiomeAlienJungly</li>	
-								<li>VCEF_BiomeAlienHot</li>	
-								<li>VCEF_BiomeAlienCold</li>						
-							</allowedBiomes>  	
-							<commonality>0.2</commonality>		
-							<baseFishingYield>3</baseFishingYield>		
-						</VCE_Fishing.FishDef>	
-						<VCE_Fishing.FishDef>
-							<defName>VCEF_SpecialVBE_EnergyDrink</defName>
-							<thingDef>VBE_EnergyDrink</thingDef>    
-							<fishSizeCategory>Special</fishSizeCategory>
-							<canBeFreshwater>true</canBeFreshwater>
-							<canBeSaltwater>true</canBeSaltwater>
-							<allowedBiomes>
-								<li>Warm</li>
-								<li>Cold</li>
-								<li>Hot</li>
-								<li>VCEF_BiomeAlienJungly</li>	
-								<li>VCEF_BiomeAlienHot</li>	
-								<li>VCEF_BiomeAlienCold</li>						
-							</allowedBiomes>  	
-							<commonality>0.3</commonality>		
-							<baseFishingYield>3</baseFishingYield>		
-						</VCE_Fishing.FishDef>	
-						<VCE_Fishing.FishDef>
-							<defName>VCEF_SpecialVBE_Soda</defName>
-							<thingDef>VBE_Soda</thingDef>    
-							<fishSizeCategory>Special</fishSizeCategory>
-							<canBeFreshwater>true</canBeFreshwater>
-							<canBeSaltwater>true</canBeSaltwater>
-							<allowedBiomes>
-								<li>Warm</li>
-								<li>Cold</li>
-								<li>Hot</li>
-								<li>VCEF_BiomeAlienJungly</li>	
-								<li>VCEF_BiomeAlienHot</li>	
-								<li>VCEF_BiomeAlienCold</li>						
-							</allowedBiomes>  	
-							<commonality>0.3</commonality>		
-							<baseFishingYield>3</baseFishingYield>		
-						</VCE_Fishing.FishDef>	
-						
-						
-
+							<commonality>0.05</commonality>		
+							<baseFishingYield>20</baseFishingYield>		
+						</VCE_Fishing.FishDef>						
 
 
 

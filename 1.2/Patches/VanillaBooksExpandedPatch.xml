@@ -2,7 +2,7 @@
 <Patch>
 	<Operation Class="PatchOperationFindMod">
 		<mods>
-			<li>DiceOfDestiny</li>
+			<li>Vanilla Books Expanded</li>
 		</mods>
 		<match Class="PatchOperationSequence">
 			<operations>
@@ -10,8 +10,8 @@
 					<xpath>/Defs</xpath>
 					<value>
 						<VCE_Fishing.FishDef>
-							<defName>VCEF_SpecialDiceOfDestiny_Dice</defName>
-							<thingDef>DiceOfDestiny_Dice</thingDef>
+							<defName>VCEF_SpecialVBE_Map</defName>
+							<thingDef>VBE_Map</thingDef>
 							<fishSizeCategory>Special</fishSizeCategory>
 							<canBeFreshwater>true</canBeFreshwater>
 							<canBeSaltwater>true</canBeSaltwater>
@@ -23,13 +23,13 @@
 								<li>VCEF_BiomeAlienHot</li>
 								<li>VCEF_BiomeAlienCold</li>
 							</allowedBiomes>
-							<commonality>0.2</commonality>
+							<commonality>0.3</commonality>
 							<baseFishingYield>1</baseFishingYield>
 							<dontScaleFishingYieldWithSkill>true</dontScaleFishingYieldWithSkill>
 						</VCE_Fishing.FishDef>
 						<VCE_Fishing.FishDef>
-							<defName>VCEF_SpecialDiceOfDestiny_DiceOfBadOmen</defName>
-							<thingDef>DiceOfDestiny_DiceOfBadOmen</thingDef>
+							<defName>VCEF_SpecialVBE_Blueprint</defName>
+							<thingDef>VBE_Blueprint</thingDef>
 							<fishSizeCategory>Special</fishSizeCategory>
 							<canBeFreshwater>true</canBeFreshwater>
 							<canBeSaltwater>true</canBeSaltwater>
@@ -46,8 +46,8 @@
 							<dontScaleFishingYieldWithSkill>true</dontScaleFishingYieldWithSkill>
 						</VCE_Fishing.FishDef>
 						<VCE_Fishing.FishDef>
-							<defName>VCEF_SpecialDiceOfDestiny_DiceOfFortune</defName>
-							<thingDef>DiceOfDestiny_DiceOfFortune</thingDef>
+							<defName>VCEF_SpecialVBE_Newspaper</defName>
+							<thingDef>VBE_Newspaper</thingDef>
 							<fishSizeCategory>Special</fishSizeCategory>
 							<canBeFreshwater>true</canBeFreshwater>
 							<canBeSaltwater>true</canBeSaltwater>
@@ -59,25 +59,7 @@
 								<li>VCEF_BiomeAlienHot</li>
 								<li>VCEF_BiomeAlienCold</li>
 							</allowedBiomes>
-							<commonality>0.05</commonality>
-							<baseFishingYield>1</baseFishingYield>
-							<dontScaleFishingYieldWithSkill>true</dontScaleFishingYieldWithSkill>
-						</VCE_Fishing.FishDef>
-						<VCE_Fishing.FishDef>
-							<defName>VCEF_SpecialDiceOfDestiny_DiceOfChaos</defName>
-							<thingDef>DiceOfDestiny_DiceOfChaos</thingDef>
-							<fishSizeCategory>Special</fishSizeCategory>
-							<canBeFreshwater>true</canBeFreshwater>
-							<canBeSaltwater>true</canBeSaltwater>
-							<allowedBiomes>
-								<li>Warm</li>
-								<li>Cold</li>
-								<li>Hot</li>
-								<li>VCEF_BiomeAlienJungly</li>
-								<li>VCEF_BiomeAlienHot</li>
-								<li>VCEF_BiomeAlienCold</li>
-							</allowedBiomes>
-							<commonality>0.05</commonality>
+							<commonality>0.5</commonality>
 							<baseFishingYield>1</baseFishingYield>
 							<dontScaleFishingYieldWithSkill>true</dontScaleFishingYieldWithSkill>
 						</VCE_Fishing.FishDef>

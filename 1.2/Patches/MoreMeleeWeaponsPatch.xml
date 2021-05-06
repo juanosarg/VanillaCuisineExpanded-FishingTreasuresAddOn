@@ -2,7 +2,7 @@
 <Patch>
 	<Operation Class="PatchOperationFindMod">
 		<mods>
-			<li>Vanilla Factions Expanded - Insectoids</li>
+			<li>More Melee Weapons!</li>
 		</mods>
 		<match Class="PatchOperationSequence">
 			<operations>
@@ -10,23 +10,80 @@
 					<xpath>/Defs</xpath>
 					<value>
 						<VCE_Fishing.FishDef>
-							<defName>VCEF_SpecialVFEI_RoyalInsectJelly</defName>
-							<thingDef>VFEI_RoyalInsectJelly</thingDef>
+							<defName>VCEF_SpecialGnm_Melee_RectangularLumber</defName>
+							<thingDef>Gnm_Melee_RectangularLumber</thingDef>
 							<fishSizeCategory>Special</fishSizeCategory>
 							<canBeFreshwater>true</canBeFreshwater>
 							<canBeSaltwater>true</canBeSaltwater>
 							<allowedBiomes>
 								<li>Warm</li>
+								<li>Cold</li>
 								<li>Hot</li>
 								<li>VCEF_BiomeAlienJungly</li>
 								<li>VCEF_BiomeAlienHot</li>
+								<li>VCEF_BiomeAlienCold</li>
 							</allowedBiomes>
 							<commonality>0.5</commonality>
-							<baseFishingYield>20</baseFishingYield>
+							<baseFishingYield>1</baseFishingYield>
+							<dontScaleFishingYieldWithSkill>true</dontScaleFishingYieldWithSkill>
 						</VCE_Fishing.FishDef>
 						<VCE_Fishing.FishDef>
-							<defName>VCEF_SpecialVFEI_DroneGenome</defName>
-							<thingDef>VFEI_DroneGenome</thingDef>
+							<defName>VCEF_SpecialGnm_Melee_PocketKnife</defName>
+							<thingDef>Gnm_Melee_PocketKnife</thingDef>
+							<fishSizeCategory>Special</fishSizeCategory>
+							<canBeFreshwater>true</canBeFreshwater>
+							<canBeSaltwater>true</canBeSaltwater>
+							<allowedBiomes>
+								<li>Warm</li>
+								<li>Cold</li>
+								<li>Hot</li>
+								<li>VCEF_BiomeAlienJungly</li>
+								<li>VCEF_BiomeAlienHot</li>
+								<li>VCEF_BiomeAlienCold</li>
+							</allowedBiomes>
+							<commonality>0.4</commonality>
+							<baseFishingYield>1</baseFishingYield>
+							<dontScaleFishingYieldWithSkill>true</dontScaleFishingYieldWithSkill>
+						</VCE_Fishing.FishDef>
+						<VCE_Fishing.FishDef>
+							<defName>VCEF_SpecialGnm_Melee_SwitchBlade</defName>
+							<thingDef>Gnm_Melee_SwitchBlade</thingDef>
+							<fishSizeCategory>Special</fishSizeCategory>
+							<canBeFreshwater>true</canBeFreshwater>
+							<canBeSaltwater>true</canBeSaltwater>
+							<allowedBiomes>
+								<li>Warm</li>
+								<li>Cold</li>
+								<li>Hot</li>
+								<li>VCEF_BiomeAlienJungly</li>
+								<li>VCEF_BiomeAlienHot</li>
+								<li>VCEF_BiomeAlienCold</li>
+							</allowedBiomes>
+							<commonality>0.3</commonality>
+							<baseFishingYield>1</baseFishingYield>
+							<dontScaleFishingYieldWithSkill>true</dontScaleFishingYieldWithSkill>
+						</VCE_Fishing.FishDef>
+						<VCE_Fishing.FishDef>
+							<defName>VCEF_SpecialGnm_Melee_FryingPan</defName>
+							<thingDef>Gnm_Melee_FryingPan</thingDef>
+							<fishSizeCategory>Special</fishSizeCategory>
+							<canBeFreshwater>true</canBeFreshwater>
+							<canBeSaltwater>true</canBeSaltwater>
+							<allowedBiomes>
+								<li>Warm</li>
+								<li>Cold</li>
+								<li>Hot</li>
+								<li>VCEF_BiomeAlienJungly</li>
+								<li>VCEF_BiomeAlienHot</li>
+								<li>VCEF_BiomeAlienCold</li>
+							</allowedBiomes>
+							<commonality>0.3</commonality>
+							<baseFishingYield>1</baseFishingYield>
+							<dontScaleFishingYieldWithSkill>true</dontScaleFishingYieldWithSkill>
+						</VCE_Fishing.FishDef>
+						<VCE_Fishing.FishDef>
+							<defName>VCEF_SpecialGnm_Melee_SideHandleBaton</defName>
+							<thingDef>Gnm_Melee_SideHandleBaton</thingDef>
 							<fishSizeCategory>Special</fishSizeCategory>
 							<canBeFreshwater>true</canBeFreshwater>
 							<canBeSaltwater>true</canBeSaltwater>
@@ -43,8 +100,8 @@
 							<dontScaleFishingYieldWithSkill>true</dontScaleFishingYieldWithSkill>
 						</VCE_Fishing.FishDef>
 						<VCE_Fishing.FishDef>
-							<defName>VCEF_SpecialVFEI_WarriorGenome</defName>
-							<thingDef>VFEI_WarriorGenome</thingDef>
+							<defName>VCEF_SpecialGnm_Melee_ClawBar</defName>
+							<thingDef>Gnm_Melee_ClawBar</thingDef>
 							<fishSizeCategory>Special</fishSizeCategory>
 							<canBeFreshwater>true</canBeFreshwater>
 							<canBeSaltwater>true</canBeSaltwater>
@@ -61,8 +118,8 @@
 							<dontScaleFishingYieldWithSkill>true</dontScaleFishingYieldWithSkill>
 						</VCE_Fishing.FishDef>
 						<VCE_Fishing.FishDef>
-							<defName>VCEF_SpecialVFEI_RoyalGenome</defName>
-							<thingDef>VFEI_RoyalGenome</thingDef>
+							<defName>VCEF_SpecialGnm_Melee_KarambitKnife</defName>
+							<thingDef>Gnm_Melee_KarambitKnife</thingDef>
 							<fishSizeCategory>Special</fishSizeCategory>
 							<canBeFreshwater>true</canBeFreshwater>
 							<canBeSaltwater>true</canBeSaltwater>
@@ -79,8 +136,8 @@
 							<dontScaleFishingYieldWithSkill>true</dontScaleFishingYieldWithSkill>
 						</VCE_Fishing.FishDef>
 						<VCE_Fishing.FishDef>
-							<defName>VCEF_SpecialVFEI_Chitin</defName>
-							<thingDef>VFEI_Chitin</thingDef>
+							<defName>VCEF_SpecialGnm_Melee_StoneKnife</defName>
+							<thingDef>Gnm_Melee_StoneKnife</thingDef>
 							<fishSizeCategory>Special</fishSizeCategory>
 							<canBeFreshwater>true</canBeFreshwater>
 							<canBeSaltwater>true</canBeSaltwater>
@@ -92,25 +149,9 @@
 								<li>VCEF_BiomeAlienHot</li>
 								<li>VCEF_BiomeAlienCold</li>
 							</allowedBiomes>
-							<commonality>0.2</commonality>
-							<baseFishingYield>50</baseFishingYield>
-						</VCE_Fishing.FishDef>
-						<VCE_Fishing.FishDef>
-							<defName>VCEF_SpecialVFEI_Shell_PsychicWarhead</defName>
-							<thingDef>VFEI_Shell_PsychicWarhead</thingDef>
-							<fishSizeCategory>Special</fishSizeCategory>
-							<canBeFreshwater>true</canBeFreshwater>
-							<canBeSaltwater>true</canBeSaltwater>
-							<allowedBiomes>
-								<li>Warm</li>
-								<li>Cold</li>
-								<li>Hot</li>
-								<li>VCEF_BiomeAlienJungly</li>
-								<li>VCEF_BiomeAlienHot</li>
-								<li>VCEF_BiomeAlienCold</li>
-							</allowedBiomes>
-							<commonality>0.05</commonality>
-							<baseFishingYield>3</baseFishingYield>
+							<commonality>0.1</commonality>
+							<baseFishingYield>1</baseFishingYield>
+							<dontScaleFishingYieldWithSkill>true</dontScaleFishingYieldWithSkill>
 						</VCE_Fishing.FishDef>
 					</value>
 				</li>

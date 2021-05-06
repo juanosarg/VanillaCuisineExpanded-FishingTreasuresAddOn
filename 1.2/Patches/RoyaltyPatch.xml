@@ -2,7 +2,7 @@
 <Patch>
 	<Operation Class="PatchOperationFindMod">
 		<mods>
-			<li>Vanilla Factions Expanded - Insectoids</li>
+			<li>Royalty</li>
 		</mods>
 		<match Class="PatchOperationSequence">
 			<operations>
@@ -10,23 +10,8 @@
 					<xpath>/Defs</xpath>
 					<value>
 						<VCE_Fishing.FishDef>
-							<defName>VCEF_SpecialVFEI_RoyalInsectJelly</defName>
-							<thingDef>VFEI_RoyalInsectJelly</thingDef>
-							<fishSizeCategory>Special</fishSizeCategory>
-							<canBeFreshwater>true</canBeFreshwater>
-							<canBeSaltwater>true</canBeSaltwater>
-							<allowedBiomes>
-								<li>Warm</li>
-								<li>Hot</li>
-								<li>VCEF_BiomeAlienJungly</li>
-								<li>VCEF_BiomeAlienHot</li>
-							</allowedBiomes>
-							<commonality>0.5</commonality>
-							<baseFishingYield>20</baseFishingYield>
-						</VCE_Fishing.FishDef>
-						<VCE_Fishing.FishDef>
-							<defName>VCEF_SpecialVFEI_DroneGenome</defName>
-							<thingDef>VFEI_DroneGenome</thingDef>
+							<defName>VCEF_SpecialApparel_PsyfocusHelmet</defName>
+							<thingDef>Apparel_PsyfocusHelmet</thingDef>
 							<fishSizeCategory>Special</fishSizeCategory>
 							<canBeFreshwater>true</canBeFreshwater>
 							<canBeSaltwater>true</canBeSaltwater>
@@ -43,8 +28,8 @@
 							<dontScaleFishingYieldWithSkill>true</dontScaleFishingYieldWithSkill>
 						</VCE_Fishing.FishDef>
 						<VCE_Fishing.FishDef>
-							<defName>VCEF_SpecialVFEI_WarriorGenome</defName>
-							<thingDef>VFEI_WarriorGenome</thingDef>
+							<defName>VCEF_SpecialApparel_EltexSkullcap</defName>
+							<thingDef>Apparel_EltexSkullcap</thingDef>
 							<fishSizeCategory>Special</fishSizeCategory>
 							<canBeFreshwater>true</canBeFreshwater>
 							<canBeSaltwater>true</canBeSaltwater>
@@ -61,26 +46,8 @@
 							<dontScaleFishingYieldWithSkill>true</dontScaleFishingYieldWithSkill>
 						</VCE_Fishing.FishDef>
 						<VCE_Fishing.FishDef>
-							<defName>VCEF_SpecialVFEI_RoyalGenome</defName>
-							<thingDef>VFEI_RoyalGenome</thingDef>
-							<fishSizeCategory>Special</fishSizeCategory>
-							<canBeFreshwater>true</canBeFreshwater>
-							<canBeSaltwater>true</canBeSaltwater>
-							<allowedBiomes>
-								<li>Warm</li>
-								<li>Cold</li>
-								<li>Hot</li>
-								<li>VCEF_BiomeAlienJungly</li>
-								<li>VCEF_BiomeAlienHot</li>
-								<li>VCEF_BiomeAlienCold</li>
-							</allowedBiomes>
-							<commonality>0.1</commonality>
-							<baseFishingYield>1</baseFishingYield>
-							<dontScaleFishingYieldWithSkill>true</dontScaleFishingYieldWithSkill>
-						</VCE_Fishing.FishDef>
-						<VCE_Fishing.FishDef>
-							<defName>VCEF_SpecialVFEI_Chitin</defName>
-							<thingDef>VFEI_Chitin</thingDef>
+							<defName>VCEF_SpecialApparel_Coronet</defName>
+							<thingDef>Apparel_Coronet</thingDef>
 							<fishSizeCategory>Special</fishSizeCategory>
 							<canBeFreshwater>true</canBeFreshwater>
 							<canBeSaltwater>true</canBeSaltwater>
@@ -93,11 +60,48 @@
 								<li>VCEF_BiomeAlienCold</li>
 							</allowedBiomes>
 							<commonality>0.2</commonality>
-							<baseFishingYield>50</baseFishingYield>
+							<baseFishingYield>1</baseFishingYield>
+							<dontScaleFishingYieldWithSkill>true</dontScaleFishingYieldWithSkill>
 						</VCE_Fishing.FishDef>
 						<VCE_Fishing.FishDef>
-							<defName>VCEF_SpecialVFEI_Shell_PsychicWarhead</defName>
-							<thingDef>VFEI_Shell_PsychicWarhead</thingDef>
+							<defName>VCEF_SpecialApparel_Crown</defName>
+							<thingDef>Apparel_Crown</thingDef>
+							<fishSizeCategory>Special</fishSizeCategory>
+							<canBeFreshwater>true</canBeFreshwater>
+							<canBeSaltwater>true</canBeSaltwater>
+							<allowedBiomes>
+								<li>Warm</li>
+								<li>Cold</li>
+								<li>Hot</li>
+								<li>VCEF_BiomeAlienJungly</li>
+								<li>VCEF_BiomeAlienHot</li>
+								<li>VCEF_BiomeAlienCold</li>
+							</allowedBiomes>
+							<commonality>0.2</commonality>
+							<baseFishingYield>1</baseFishingYield>
+							<dontScaleFishingYieldWithSkill>true</dontScaleFishingYieldWithSkill>
+						</VCE_Fishing.FishDef>
+						<VCE_Fishing.FishDef>
+							<defName>VCEF_SpecialApparel_Beret</defName>
+							<thingDef>Apparel_Beret</thingDef>
+							<fishSizeCategory>Special</fishSizeCategory>
+							<canBeFreshwater>true</canBeFreshwater>
+							<canBeSaltwater>true</canBeSaltwater>
+							<allowedBiomes>
+								<li>Warm</li>
+								<li>Cold</li>
+								<li>Hot</li>
+								<li>VCEF_BiomeAlienJungly</li>
+								<li>VCEF_BiomeAlienHot</li>
+								<li>VCEF_BiomeAlienCold</li>
+							</allowedBiomes>
+							<commonality>0.2</commonality>
+							<baseFishingYield>1</baseFishingYield>
+							<dontScaleFishingYieldWithSkill>true</dontScaleFishingYieldWithSkill>
+						</VCE_Fishing.FishDef>
+						<VCE_Fishing.FishDef>
+							<defName>VCEF_SpecialApparel_Gunlink</defName>
+							<thingDef>Apparel_Gunlink</thingDef>
 							<fishSizeCategory>Special</fishSizeCategory>
 							<canBeFreshwater>true</canBeFreshwater>
 							<canBeSaltwater>true</canBeSaltwater>
@@ -110,7 +114,8 @@
 								<li>VCEF_BiomeAlienCold</li>
 							</allowedBiomes>
 							<commonality>0.05</commonality>
-							<baseFishingYield>3</baseFishingYield>
+							<baseFishingYield>1</baseFishingYield>
+							<dontScaleFishingYieldWithSkill>true</dontScaleFishingYieldWithSkill>
 						</VCE_Fishing.FishDef>
 					</value>
 				</li>
